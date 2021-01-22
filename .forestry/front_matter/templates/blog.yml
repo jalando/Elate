@@ -1,4 +1,9 @@
 ---
 label: Blog
 hide_body: true
-fields: []
+fields:
+- name: test_label
+  type: include
+  config: {}
+  template: blog
+  label: Test label
